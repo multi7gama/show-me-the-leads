@@ -14,7 +14,12 @@ body {
 
 #logo-nav {
   background-color: white;
-  height: 20vh;
+  padding: 20px 0;
+  height: 80%;
+  width: 100%;
+  display: flex;
+	justify-content: center;
+	align-items: center;
  
 }
 .txt-p-bottom {
