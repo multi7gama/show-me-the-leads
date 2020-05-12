@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show me the Leads</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<header>
+
+</header>
+<body>
+  <h2>Já sabemos que precisamos lavar a mão e usar máscara... mas e depois?</h2>
+  <div class="container">    
+    <!-- <h1>Show me the Leads</h1> -->    
+    <h2>Receba o seu e-book:</h2>
+    <form method="POST" action="https://smtl.gama.academy/leads/db22dd70-915e-11ea-9e98-2f3c29e0891c">
+      
+      <div class="row">
+        <div class="input-field col s11">
+          <input  name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Nome" title="Nome Completo" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s11">
+          <input name="idade" type="text" placeholder="Idade"  />
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s11">
+          <input name="email" type="email" placeholder="Email"  />
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s11">
+          <input name="telefone" type="text" placeholder="Telefone"  />
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s11">
+          <input name="cidade" type="text" placeholder="Cidade"  />
+        </div>
+      </div>    
+
+      <input name="redirectTo" type="hidden" value="https://dirijaseguro.com.br/thankyou.html" />
+      <input name="debugMode" type="hidden" value="true" />
+      <input class="btn" type="submit" value="Baixar E-Book"/>
+    </form>
+  </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      
+</body>
+</html>

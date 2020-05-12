@@ -1,9 +1,68 @@
 * {
- box-sizing: border-box;
- margin: 0;
- padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  font-family: 'Roboto Slab', serif;
+ 
 }
+
+
+#logo-nav {
+  background-color: white;
+  height: 20vh;
+ 
+}
+
+#logo-nav img {
+  height: 100%;
+  width: 25%;
+}
+
+.content-bottom {
+  z-index: 1;
+  background-color: white;
+  position: relative;
+  bottom: 60px;
+}
+
+
+
+.background-img {
+
+  height: 600px;
+  background-image: url('/img/why-kei-8e2gal_GIE8-unsplash.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+.blur {
+  height: 100vh;
+  backdrop-filter: blur(3px); 
+}
+.card-img-top {
+  width: 70px;
+  height: 70px;
+
+}
+
+.card-space {
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ident-large {
+  background-color: white;
+  position: relative;
+  padding-left: 40px;
+  width: 60%;
+  left: 50px;
+  bottom: 80px;
+}
+
+
