@@ -15,7 +15,7 @@ body {
 #logo-nav {
   background-color: white;
   padding: 20px 0;
-  height: 80%;
+  height: 0%;
   width: 100%;
   display: flex;
 	justify-content: center;
@@ -44,11 +44,11 @@ body {
 
 .background-img {
   height: 600px;
-  width: 99vw;
+  width: 98vw;
   background-image: url('../img/background-img-edit.png');
-  background-size: 100% 100%;
+  background-size: 100% 90%;
   background-repeat: no-repeat;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .card-img-top {
