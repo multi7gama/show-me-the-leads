@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
 #logo-nav {
@@ -17,14 +18,13 @@ body {
  
 }
 .txt-p-bottom {
-  padding: 15px;
   font-weight: bold;
   font-size: 30px;
 }
 
 .card-text {
   font-weight: bold;
-  font-size:  18px;
+  font-size:  1.2rem;
 }
 
 #logo-nav img {
@@ -69,6 +69,8 @@ body {
 
 .ident-small {
   width: 50%;
+  margin: 0;
+  padding-top: 30px;
 }
 
  .conteudo{
@@ -94,7 +96,7 @@ body {
 }
 
 .titulo{
-  font-size: 40px;
+  font-size: 2.5rem;
   background: #B09494;
   font-weight: bold;
   width: 213px;
@@ -106,15 +108,14 @@ body {
 .texto1{
  
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 45px;
  
 }
 
 .texto2{
 
-font-size: 25px;
-line-height: 45px;
+font-size: 1.5rem;
 }
 
  
@@ -178,3 +179,66 @@ line-height: 45px;
 
 
 
+@media (max-width: 1127px) {
+
+
+  .conteudo{
+   
+    width: 90%;
+   position: relative;
+   display: flex;
+   padding-left: 50px;
+   padding-top: 40px;
+   z-index: 1;
+ }
+
+  .formulario {
+ 
+    width: 40%;
+    height:100%;
+    background-color: #F2F2F2;
+    padding: 30px 40px;
+  }
+
+  .apresentacao{
+  
+    color: white;
+    width: 60%;
+    height: 400px;
+  }
+
+  .paragrafo-1 {
+    height: 45%;
+    width: 90%;
+  }
+
+  .paragrafo-2 {
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  .texto1{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 45px;
+   
+  }
+  
+  .texto2{
+  
+  font-size: 1.5rem;
+  line-height: 28px;
+  }
+
+  .card-space {
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+}
