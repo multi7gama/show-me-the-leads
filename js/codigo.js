@@ -14,7 +14,7 @@ $('#formulario').submit(function (event) {
     $.ajax({
         url: 'https://smtl.gama.academy/leads/db22dd70-915e-11ea-9e98-2f3c29e0891c',
         method: 'POST',
-        data: { name: name, email: email, debugMode: 'true' },
+        // data: { name: name, email: email, debugMode: 'true' },
         data: { name: name, email: email},
         success: function () {
             window.location = "https://dirijaseguro.com.br/thankyou.html";
