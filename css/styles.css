@@ -131,12 +131,7 @@ nav {
 .footer {
   padding-top: 100px;
   
-} 
-
-/* .redes-sociais {
- 
-  
- } */
+}
 
 .redes-sociais img {
   width: 50px;
@@ -147,6 +142,32 @@ nav {
   list-style: none;
   text-decoration: none;
 }
+
+
+
+@media (max-width: 590px) {
+
+  .grupo-text-header {
+    width: 80%;
+    padding-left: 25px;
+  
+  }
+  
+  #text-1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  
+  #text-2 {
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
+
+}
+
+
 
 @media (min-width: 789px) and (max-width: 957.98px) {
   .logo-nav {
