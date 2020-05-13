@@ -5,6 +5,15 @@ body{
 
 }
 
+.botao-wpp {
+  text-decoration: none;
+  color: #eee;
+  background-color: #25d366;
+  font-weight: bold;
+  padding: 0.7rem 0.6rem;
+  border-radius: 10px;
+}
+
 #TXT{
 
   background-color: rgba(255, 255, 255, 0.755);
@@ -21,11 +30,6 @@ body{
   margin-left: 30%;
 }
 
-a{
-  color: blue;
-  text-decoration: unset;
-}
-
 
 #Redesocial{
   display: flex;
@@ -39,5 +43,5 @@ a{
 #Redesocial img {
   width: 40px;
   height: 40px;
-  padding: 0 10px;
+  margin-right: 10px;
 }
