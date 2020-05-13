@@ -1,130 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dirija Seguro</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/d7fd1a01ef.js" crossorigin="anonymous"></script>
-
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Dirija Seguro</title>
 </head>
 <body>
-  <main >
+  <main>
+    <nav>
+      <img class="logo-nav" src="img/dirija seguro logo final-07.png" alt="imagem logo dirija seguro">
+    </nav>
 
-  <nav class="navbar" id="logo-nav">
-    <img  src="img/dirija seguro logo final-07.png" alt="logo dirija seguro">
-  </nav>
-
-    
-
-  <div class="background-img container-fluid"> 
-    <div class="conteudo">
-      <div class="apresentacao">
-        <h2 class="titulo">Ebook</h2>
-
-        <div class="paragrafo-1">
-          <p class="texto1">Pandemia: além do básico,o que
-            mais podemos fazer para
-            proteger a todos?</p>
+    <div class="background-img img">
+      <div class="header">
+        <div class="grupo-text-header pt-5 ">
+          <p id="text-1">Pandemia: além do básico, o que mais podemos fazer para proteger a todos?</p>
+          <p id="text-2">Já sabemos que precisamos lavar a mão e usar máscara... mas e depois?</p>
         </div>
-          <div class="paragrafo-2">
-            <p class="texto2">Já sabemos que precisamos lavar a mão e usar máscara... mas e depois?</p>
-          </div>
       </div>
-
-      <div class="formulario">   
-        <h2>É só preencher o formulário abaixo para acessar:</h2>
-        <form method="POST" action="https://smtl.gama.academy/leads/db22dd70-915e-11ea-9e98-2f3c29e0891c">
-          
-          <div class="">
-            <div class="form-group">
-              <label for="name">Nome Completo:</label>
-              <input class="form-control" id="name" name="name" tye="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Nome Completo"  placeholder="Nome Completo" required />
-            </div>
-          </div>
-          <div class="">
-            <div class="form-group">
-              <label for="idade">Email:</label>
-              <input class="form-control" name="email" type="email" placeholder="E-mail"  required />
-            </div>
-          </div>
-          <div class="">
-            <div class="form-group">
-              <label for="idade">Cidade:</label>
-              <input class="form-control" name="cidade" type="text" placeholder="Cidade"  />
-            </div>
-          </div>
-          <div class="form-group ">
-            <label for="motorista">É motorista de app:</label>
-              <select id="inputState" class="form-control">
-                <option selected>Escolha...</option>
-                <option>Sim</option>
-                <option>Não</option>
-              </select>
-          </div>
-    
-          <input name="redirectTo" type="hidden" value="https://dirijaseguro.com.br/thankyou.html" />
-          <input name="debugMode" type="hidden" value="true" />
-          <input class="btn" type="submit" value="BAIXAR GRATUITAMENTE"/>
-        </form>
-      </div>
-      <!-- end  div form -->
     </div>
-    <!-- end  div conteudo -->
-  </div> 
-  <!-- end  div background-img -->
+
+    <div class="formulario">   
+      <h2>Receba o seu e-book:</h2>
+      <form method="POST" action="https://smtl.gama.academy/leads/db22dd70-915e-11ea-9e98-2f3c29e0891c">
+        
+        <div class="">
+          <div class="form-group">
+            <label for="name">Nome Completo:</label>
+            <input class="form-control" id="name" name="name" tye="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Nome Completo"  placeholder="Nome Completo" required />
+          </div>
+        </div>
+        <div class="">
+          <div class="form-group">
+            <label for="idade">Email:</label>
+            <input class="form-control" name="email" type="email" placeholder="E-mail"  required />
+          </div>
+        </div>
+        <div class="">
+          <div class="form-group">
+            <label for="idade">Cidade:</label>
+            <input class="form-control" name="cidade" type="text" placeholder="Cidade"  />
+          </div>
+        </div>
+        <div class="form-group ">
+          <label for="motorista">É motorista de app:</label>
+            <select id="inputState" class="form-control">
+              <option selected>Escolha...</option>
+              <option>Sim</option>
+              <option>Não</option>
+            </select>
+        </div>
   
+        <input name="redirectTo" type="hidden" value="https://dirijaseguro.com.br/thankyou.html"/>
+        <input name="debugMode" type="hidden" value="true" />
+        <input class="btn" type="submit" value="BAIXAR GRATUITAMENTE"/>
+      </form>
+    </div> 
+    <!-- fim div form -->
 
-    
-<section class="content-bottom">
-  <div class="ident-large">
-    <div class="ident-small">
-      
-        <p class="txt-p-bottom">E mais:</p>
-      
 
+    <div class="cards-small">
+      <p class="txt-p-bottom">E mais:</p>
       <div class="row">
-        <div class="mx-3">
           <div class="card-space">
-            <img src="img/ballon-1.png" class="card-img-top  mb-3" alt="icone de dúvidas">
-            <div class="">
-              <p class="card-text">Tenha acesso a respostas, como: em dias de chuva, devo deixar o vidro aberto ou
-                fechado?</p>
+            <img src="img/askIcon.png" class="card-img  mb-3" alt="icone de dúvidas">
+            <div class=""><p class="card-text">Tire suas dúvidas! Como: em dias de chuva/frio, devo deixar o vidro aberto ou fechado?</p>
             </div>
           </div>
-        </div>
-        <div class="mx-3">
           <div class="card-space">
-            <img src="img//list-2.png" class="card-img-top mb-3" alt="icone de lista">
+            <img src="img/checkIcon.png" class="card-img mb-3" alt="icone de lista">
             <div class="">
-              <p class="card-text">Deixe claro ao seu passageiro que você se preocupa com a saúde dele: imprima um check list
-                de cuidados para dispor no seu carro</p>
+              <p class="card-text">Mostre ao seu passageiro que você se preocupa com a saúde dele: imprima um check list de cuidados para dispor no seu carro</p>
             </div>
           </div>
-        </div>
-        <div class="mx-3">
           <div class="card-space">
-            <img src="img/heart-3.png" class="card-img-top  mb-3" alt="icone de segurança">
+            <img src="img/safeCarIcon.png" class="card-img  mb-3" alt="icone de segurança">
             <div class="">
               <p class="card-text">Esteja informado sobre como manter seu carro seguro para o seu cliente</p>
             </div>
           </div>
-        </div>
       </div>
     </div>
-  </div>
-<!-- </section> -->
-    
-<footer class="footer ">
-  <div class="text-center">
-    <a class="fb-icon" href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><span class="fb-icon"><i class="fb-icon fab fa-facebook-square fa-3x"></i></span></a> 
-    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram fa-3x fb-icon"></i></a>
-  </div>
-  <p class="text-center align-bottom"> © 2020 - Dirija Seguro</p>
-</footer>
+
   </main>
- 
+
+  <footer class="footer text-center">
+      <div class="redes-sociais">
+        <ul class="">
+          <li><a href="https://www.facebook.com"> <img src="img/fb-logo.png" alt="logo facebook"></a></li>
+          <li><a href="https://www.instagram.com"> <img src="img/ig-logo.png" alt="logo instagram"> </a></li>
+        </ul> 
+       <span> © 2020 - Dirija Seguro</span>
+      </div>
+  </footer>
 </body>
+
 </html>
