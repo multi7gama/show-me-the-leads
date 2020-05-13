@@ -130,6 +130,7 @@ nav {
 
 .footer {
   padding-top: 100px;
+  
 } 
 
 /* .redes-sociais {
@@ -282,8 +283,10 @@ nav {
 
 }
 
-/* .redes-sociais {
- 
+.footer {
+  width: 100%;
+  float: left;
+}
 
- } */
+
 }
